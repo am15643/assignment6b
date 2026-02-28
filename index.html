@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        section {
+            width: 100vw;
+            height: 100vh;
+            padding: 2em;
+            box-sizing: border-box;
+
+        }
+
+        section:nth-child(odd){
+            background-color: lightgoldenrodyellow;
+
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1{
+            font-size: 5em;
+            align-items: flex-start;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        img {
+            width: 550px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+       
+            <section class="container">
+                <h1 data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-delay="3000"
+            data-aos-easing="ease"> SMILE! </h1>
+            </section>
+            <section class="container">
+                    <img src="elso.jpeg" data-aos="zoom-out-down"
+                    data-aos-delay="1000"
+                    data-aos-duration="2000"
+                data-aos-easing="ease">
+            </section>
+            <section class="container">
+                <img src="masodik.jpeg" data-aos="fade-up" 
+                data-aos-delay="1000"
+                data-aos-duration="2000"
+                data-aos-easing="ease">
+            </section>
+            <section class="container">
+                <img src="harmadik.jpeg" data-aos="zoom-out-down"
+            data-aos-duration="2000"
+            data-aos-delay="1000"
+            data-aos-easing="ease">
+            </section>
+        
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
